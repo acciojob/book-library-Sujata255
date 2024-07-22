@@ -23,6 +23,8 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+	    background-color: #ffffff;
+
 }
 
 .book {
@@ -48,4 +50,11 @@ main {
 .book-info h2,
 .book-info h3 {
     margin: 5px 0;
+}
+.book-info p {
+    color: #777777;
+}
+
+.book-price {
+    color: #2ecc71;
 }
